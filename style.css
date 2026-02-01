@@ -17,6 +17,7 @@
     border: none;
     color: #FFFFFF;
     border-radius: 5px;
+    cursor: pointer;
     
 }
 .btn2{
@@ -27,6 +28,7 @@
     font-size: 16px;
     font-weight: 500px;
     color: #469165;
+    cursor: pointer;
 }
 .btn3{
     background-color:rgb(37, 37, 37);
@@ -34,6 +36,7 @@
     border:solid 1px #FFFFFF ;
     color: #FFFFFF;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 nav{
@@ -44,7 +47,7 @@ nav{
     
 }
 #containar img{
-    width: 139px;
+    /* width: 139px;*/ 
 }
 #containar .menu{
     display: flex;
@@ -129,7 +132,7 @@ nav{
     padding: 69px 0;
 }
 .card-contant img{
-    width: 32px;
+    width:60px;
     background-color: #F95555;
     padding: 15px;
     border-radius: 50%;
@@ -158,25 +161,21 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 120px;
+    padding:120px 0 120px 0 ;
     gap: 60px;
-    border: solid red 1px;
+    
 }
 .knowledge-img img{
     width: 600px;
-    height: 600px;
-    border: solid red 1px;
-    display: block;
+    
 
 }
-
-
     
 
 .about-contant{
     width: 700px;
     padding: 102px 0 102px 60px;
-    border: solid red 1px;
+    
     
 }
 .about-info h3{
@@ -210,5 +209,32 @@ nav{
 }
 .icon{
     color: #30B868;
+}
+.clearly-contant{
+    padding: 80px 0 80px 0;
+    text-align: center;
+}
+#containar-1{
+    width: 70%;
+    max-width: 1360px;
+    margin: 0 auto 120px;
+    background-color:#F7F6F2 ;
+}
+.clearly-contant h1{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 100%;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.clearly-contant p{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+.button-4{
+    margin-bottom: 20px;
 }
 
