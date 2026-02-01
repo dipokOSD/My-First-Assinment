@@ -41,7 +41,7 @@ nav{
     justify-content: space-between;
     padding-top:24px ;
     align-items: center;
-    border: solid 1px black;
+    
 }
 #containar img{
     width: 139px;
@@ -98,4 +98,58 @@ nav{
     display: flex;
     gap: 16px;
     justify-content: center;
+}
+.card-containar{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.containar-heading{
+    text-align: center;
+    padding-top: 40px;
+}
+.containar-heading h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.containar-heading p{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 44px;
+}
+
+.card-contant{
+    width: 322px;
+    text-align: center;
+    box-shadow: 0 0 8px 0 #d6c8c8;
+    padding: 69px 0;
+}
+.card-contant img{
+    width: 32px;
+    background-color: #F95555;
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+.card-contant h2{
+    width: 274px;
+    padding: 0 24px;
+    font-size: 24px;
+    font-weight: 600px;
+    color: #001931;
+    margin-bottom: 16px;
+
+}
+.card-contant p{
+    width: 274px;
+    padding: 0 24px;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #627382;
+    line-height: 20px;
+    
 }
