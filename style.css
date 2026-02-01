@@ -8,20 +8,40 @@
     width: 70%;
     max-width: 1360px;
     margin: 0 auto;
+    
 }
 
-.btn{
-    background-color: #30B868;
-    padding: 12px 16px 12px 16px;
+.btn1{
+    background-color: #469165;
+    padding: 10px 16px 12px 16px;
     border: none;
     color: #FFFFFF;
     border-radius: 5px;
+    
 }
+.btn2{
+    max-width: 229px;
+    padding: 8px 12px 8px 12px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500px;
+    color: #469165;
+}
+.btn3{
+    background-color:rgb(37, 37, 37);
+    padding: 10px 16px 12px 16px;
+    border:solid 1px #FFFFFF ;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
     padding-top:24px ;
     align-items: center;
+    border: solid 1px black;
 }
 #containar img{
     width: 139px;
@@ -40,4 +60,42 @@ nav{
     text-decoration: none;
     color: #000000;
     
+}
+#hero-section{
+     background: url(assets/hero-bg.png);
+     background-repeat: no-repeat;
+     width: 100vw;
+    background-size: cover;
+}    
+     
+.contant{
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 115px 0 179px 0 ;
+    
+}
+
+.contant h1{
+    max-width: 770px;
+    margin:16px auto;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+    color: #FFFFFF;
+}
+.contant p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+.contant .green{
+    color:#469165;
+}
+.button{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
 }
